@@ -1,14 +1,3 @@
-⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
-
-2022-09-15:
-
-This repo is not maintained.
-
-If someone would like to fork it and support it, IPLD stewards are happy to point to a supported fork.
-Please open an issue in ipld/ipld requesting this of ask in #ipld in IPFS Discod, Matrix, or FIL Slack.
-
-⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
-
 
 CID (Content IDentifier)
 ------------------------
@@ -31,7 +20,7 @@ CID (Content IDentifier)
 What is CID ?
 =============
 
-`CID <https://github.com/ipld/cid>`_ is a format for referencing content in distributed information systems,
+`CID <https://github.com/multiformats/cid>`_ is a format for referencing content in distributed information systems,
 like `IPFS <https://ipfs.io>`_.
 It leverages `content addressing <https://en.wikipedia.org/wiki/Content-addressable_storage>`_,
 `cryptographic hashing <https://simple.wikipedia.org/wiki/Cryptographic_hash_function>`_, and
@@ -77,7 +66,7 @@ To install CID, run this command in your terminal:
 
 .. code-block:: console
 
-    $ pip install py-cid
+    $ pip install py-multiformats-cid
 
 This is the preferred method to install CID, as it will always install the most recent stable release.
 
@@ -96,13 +85,13 @@ You can either clone the public repository:
 
 .. code-block:: console
 
-    $ git clone git://github.com/ipld/py-cid
+    $ git clone https://github.com/pinnaculum/py-multiformats-cid
 
 Or download the `tarball`_:
 
 .. code-block:: console
 
-    $ curl  -OL https://github.com/ipld/py-cid/tarball/master
+    $ curl  -OL https://github.com/pinnaculum/py-multiformats-cid/tarball/master
 
 Once you have a copy of the source, you can install it with:
 
@@ -111,12 +100,12 @@ Once you have a copy of the source, you can install it with:
     $ python setup.py install
 
 
-.. _Github repo: https://github.com/ipld/py-cid
-.. _tarball: https://github.com/ipld/py-cid/tarball/master
+.. _Github repo: https://github.com/pinnaculum/py-multiformats-cid
+.. _tarball: https://github.com/pinnaculum/py-multiformats-cid/tarball/master
 
 Other info
 ==========
 
 * Free software: MIT license
 * Documentation: https://py-cid.readthedocs.io.
-* Python versions: 3.5, 3.6
+* Python versions: 3.5, 3.6, 3.7, 3.8, 3.9

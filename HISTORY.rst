@@ -1,9 +1,10 @@
 History
 -------
 
-0.4.0 (forked master)
-=====================
+0.4.0 (2022-10-31)
+==================
 
+* Rename py-cid to py-multiformats-cid (@pinnaculum)
 * remove crazy version range limits for dependencies which cause major headaches
   for downstream projects with multiple confluent indirect dependencies on this library
 
