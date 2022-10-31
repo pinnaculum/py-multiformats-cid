@@ -3,18 +3,14 @@ CID (Content IDentifier)
 ------------------------
 
 
-.. image:: https://img.shields.io/pypi/v/py-cid.svg
-        :target: https://pypi.python.org/pypi/py-cid
+.. image:: https://img.shields.io/pypi/v/py-multiformats-cid.svg
+        :target: https://pypi.python.org/pypi/py-multiformats-cid
 
-.. image:: https://img.shields.io/travis/ipld/py-cid.svg?branch=master
-        :target: https://travis-ci.org/ipld/py-cid?branch=master
+.. image:: https://img.shields.io/travis/pinnaculum/py-multiformats-cid.svg?branch=master
+        :target: https://travis-ci.org/pinnaculum/py-multiformats-cid?branch=master
 
-.. image:: https://codecov.io/gh/ipld/py-cid/branch/master/graph/badge.svg
-        :target: https://codecov.io/gh/ipld/py-cid
-
-.. image:: https://readthedocs.org/projects/py-cid/badge/?version=stable
-        :target: https://py-cid.readthedocs.io/en/stable/?badge=stable
-        :alt: Documentation Status
+.. image:: https://codecov.io/gh/pinnaculum/py-multiformats-cid/branch/master/graph/badge.svg
+        :target: https://codecov.io/gh/pinnaculum/py-multiformats-cid
 
 
 What is CID ?
@@ -42,7 +38,7 @@ Sample Usage
 
 .. code-block:: python
 
-    >>> from cid import make_cid
+    >>> from multiformats_cid import make_cid
     >>> make_cid('QmaozNR7DZHQK1ZcU9p7QdrshMvXqWK6gpu5rmrkPdT3L4')
     CIDv0(version=0, codec=dag-pb, multihash=b"\x12 \xb9M'\xb9\x93M>\x08\xa5.R\xd7\xda}\xab\xfa\xc4\x84..")
 
@@ -107,5 +103,5 @@ Other info
 ==========
 
 * Free software: MIT license
-* Documentation: https://py-cid.readthedocs.io.
+* Documentation: https://py-multiformats-cid.readthedocs.io.
 * Python versions: 3.5, 3.6, 3.7, 3.8, 3.9

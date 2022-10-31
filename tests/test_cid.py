@@ -7,7 +7,7 @@ from morphys import ensure_unicode
 
 import multibase
 import multicodec
-from cid import CIDv0, CIDv1, make_cid, is_cid, from_string
+from multiformats_cid import CIDv0, CIDv1, make_cid, is_cid, from_string
 from multibase.multibase import ENCODINGS
 from hypothesis import given, strategies as st
 
