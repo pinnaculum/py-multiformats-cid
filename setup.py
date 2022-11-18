@@ -30,13 +30,13 @@ test_requirements = [
 
 setup(
     name='py-multiformats-cid',
-    version='0.4.1',
+    version='0.4.2',
     description="Self-describing content-addressed identifiers for distributed systems",
     long_description=readme + '\n\n' + history,
     author="Dhruv Baldawa",
     author_email='dhruv@dhruvb.com',
     url='https://github.com/pinnaculum/py-multiformats-cid',
-    packages=find_packages(include=['cid']),
+    packages=find_packages(include=['multiformats_cid']),
     include_package_data=True,
     install_requires=requirements,
     license="MIT license",
