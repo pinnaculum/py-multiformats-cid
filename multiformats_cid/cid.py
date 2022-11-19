@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from __future__ import annotations
-from typing import Any
+from typing import Any, Union
 
 import base58
 
@@ -16,7 +16,7 @@ import multicodec  # type: ignore
 class BaseCID(object):
     __hash__ = object.__hash__
 
-    def __init__(self, version: int, codec: str, multihash: bytes | str):
+    def __init__(self, version: int, codec: str, multihash: Union[bytes, str]):
         """
         Creates a new CID object. This class should not be used directly, use :py:class:`cid.cid.CIDv0` or
         :py:class:`cid.cid.CIDv1` instead.
@@ -51,7 +51,7 @@ class BaseCID(object):
     def buffer(self) -> bytes:
         raise NotImplementedError
 
-    def encode(self, *args: Any, **kwargs: Any) -> bytes | str:
+    def encode(self, *args: Any, **kwargs: Any) -> Union[bytes, str]:
         raise NotImplementedError
 
     def __repr__(self) -> str:
@@ -83,7 +83,7 @@ class CIDv0(BaseCID):
     """ CID version 0 object """
     CODEC = 'dag-pb'
 
-    def __init__(self, multihash: bytes | str):
+    def __init__(self, multihash: Union[bytes, str]):
         """
         :param bytes multihash: multihash for the CID
         """
@@ -121,7 +121,7 @@ class CIDv0(BaseCID):
 class CIDv1(BaseCID):
     """ CID version 1 object """
 
-    def __init__(self, codec: str, multihash: bytes | str):
+    def __init__(self, codec: str, multihash: Union[bytes, str]):
         super(CIDv1, self).__init__(1, codec, multihash)
 
     @property
@@ -216,7 +216,7 @@ def make_cid(*args: Any) -> BaseCID:
         raise ValueError('invalid number of arguments, expected 1 or 3')
 
 
-def is_cid(cidstr: str | bytes) -> bool:
+def is_cid(cidstr: Union[bytes, str]) -> bool:
     """
     Checks if a given input string is valid encoded CID or not.
     It takes same input as `cid.make_cid` method with a single argument
