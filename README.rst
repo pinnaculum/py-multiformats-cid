@@ -104,4 +104,4 @@ Other info
 
 * Free software: MIT license
 * Documentation: https://py-multiformats-cid.readthedocs.io.
-* Python versions: 3.5, 3.6, 3.7, 3.8, 3.9
+* Python versions: 3.7, 3.8, 3.9, 3.10

@@ -147,7 +147,7 @@ class MakeCIDTestCase(object):
         1,
         1.0,
         object(),
-        3+2j,
+        3 + 2j,
         [],
     ))
     def test_hash_invalid_type(self, value):
@@ -173,7 +173,7 @@ class MakeCIDTestCase(object):
         1,
         1.0,
         object(),
-        3+2j,
+        3 + 2j,
         [],
     ))
     def test_multihash_invalid(self, value):
