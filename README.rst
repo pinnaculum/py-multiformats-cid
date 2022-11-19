@@ -2,16 +2,8 @@
 CID (Content IDentifier)
 ------------------------
 
-
 .. image:: https://img.shields.io/pypi/v/py-multiformats-cid.svg
-        :target: https://pypi.python.org/pypi/py-multiformats-cid
-
-.. image:: https://img.shields.io/travis/pinnaculum/py-multiformats-cid.svg?branch=master
-        :target: https://travis-ci.org/pinnaculum/py-multiformats-cid?branch=master
-
-.. image:: https://codecov.io/gh/pinnaculum/py-multiformats-cid/branch/master/graph/badge.svg
-        :target: https://codecov.io/gh/pinnaculum/py-multiformats-cid
-
+    :target: https://pypi.python.org/pypi/py-multiformats-cid
 
 What is CID ?
 =============
@@ -58,7 +50,7 @@ Installation
 Stable release
 ~~~~~~~~~~~~~~
 
-To install CID, run this command in your terminal:
+To install *py-multiformats-cid*, run this command in your terminal:
 
 .. code-block:: console
 
@@ -75,7 +67,7 @@ you through the process.
 From sources
 ~~~~~~~~~~~~
 
-The sources for CID can be downloaded from the `Github repo`_.
+The sources for *py-multiformats-cid* can be downloaded from the `Github repo`_.
 
 You can either clone the public repository:
 

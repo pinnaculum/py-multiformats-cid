@@ -8,7 +8,7 @@ mypy
 pytest
 pytest-cov
 pytest-runner
-Sphinx==1.8.5
+Sphinx==5.2.3
 tox
 twine
 wheel
