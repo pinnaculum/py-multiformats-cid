@@ -30,7 +30,7 @@ test_requirements = [
 
 setup(
     name='py-multiformats-cid',
-    version='0.4.2',
+    version='0.4.3',
     description="Self-describing content-addressed identifiers for distributed systems",
     long_description=readme + '\n\n' + history,
     author="Dhruv Baldawa",

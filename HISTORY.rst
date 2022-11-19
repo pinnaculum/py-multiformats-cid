@@ -1,6 +1,17 @@
 History
 -------
 
+0.4.3 (2022-11-19)
+==================
+
+* Add typing hints: contribution from @bh2smith
+* Add CI workflow
+
+0.4.2 (2022-10-31)
+==================
+
+* Transition release to make mypy happy
+
 0.4.0 (2022-10-31)
 ==================
 

@@ -10,4 +10,4 @@ Development Lead
 Contributors
 ------------
 
-None yet. Why not be the first?
+* Benjamin Smith `@bh2smith <https://github.com/bh2smith>`_
