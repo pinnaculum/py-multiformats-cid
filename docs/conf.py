@@ -200,8 +200,8 @@ html_sidebars = {
 }
 
 html_theme_options = {
-    'github_user': 'ipld',
-    'github_repo': 'py-cid',
+    'github_user': 'pinnaculum',
+    'github_repo': 'py-multiformats-cid',
     'github_button': True,
     'github_banner': True,
     'code_font_size': '0.8em',

@@ -15,7 +15,7 @@ Types of Contributions
 Report Bugs
 ~~~~~~~~~~~
 
-Report bugs at https://github.com/ipld/py-cid/issues.
+Report bugs at https://github.com/pinnaculum/py-multiformats-cid/issues.
 
 If you are reporting a bug, please include:
 
@@ -45,7 +45,7 @@ articles, and such.
 Submit Feedback
 ~~~~~~~~~~~~~~~
 
-The best way to send feedback is to file an issue at https://github.com/ipld/py-cid/issues.
+The best way to send feedback is to file an issue at https://github.com/pinnaculum/py-multiformats-cid/issues.
 
 If you are proposing a feature:
 
@@ -62,12 +62,12 @@ Ready to contribute? Here's how to set up `cid` for local development.
 1. Fork the `cid` repo on GitHub.
 2. Clone your fork locally::
 
-    $ git clone git@github.com:your_name_here/py-cid.git
+    $ git clone git@github.com:your_name_here/py-multiformats-cid.git
 
 3. Install your local copy into a virtualenv. Assuming you have virtualenvwrapper installed, this is how you set up your fork for local development::
 
-    $ mkvirtualenv py-cid
-    $ cd py-cid/
+    $ mkvirtualenv py-multiformats-cid
+    $ cd py-multiformats-cid/
     $ python setup.py develop
 
 4. Create a branch for local development::
@@ -101,9 +101,6 @@ Before you submit a pull request, check that it meets these guidelines:
 2. If the pull request adds functionality, the docs should be updated. Put
    your new functionality into a function with a docstring, and add the
    feature to the list in README.rst.
-3. The pull request should work for Python 3.4, 3.5 and 3.6. Check
-   https://travis-ci.org/ipld/py-cid/pull_requests
-   and make sure that the tests pass for all supported Python versions.
 
 Tips
 ----
@@ -111,4 +108,3 @@ Tips
 To run a subset of tests::
 
 $ py.test tests.test_cid
-
